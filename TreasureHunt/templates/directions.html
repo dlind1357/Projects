@@ -1,0 +1,52 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Directions
+{% endblock %}
+
+{% block main %}
+<div class="container">
+    <h1> Welcome to Treasure Hunt!</h1>
+    <p>
+    You are stuck on an island and your mission is to collect all the treasure while avoiding the landmines.
+    Luckily for you, you have a very handy metal detector that can help you detect when a landmine is near.
+    </p>
+
+    <p>
+    To start your mission, click on "Warm Up" or "Start Game" in the Navigation Bar above which redirect you to the screen below and automatically start the game.
+    </p>
+
+    <p>
+    <img src="/static/startgame.png" alt="startgame">
+    </p>
+
+    <p>Click anywhere to start looking for treasure.</p>
+    <p>
+        <img src="/static/click.png" alt="click">
+        </p>
+    <p>If you click on a tile and see a number, that number represents how many landmines are near that tile. </p>
+    <p>
+        <img src="/static/number.png" alt="number">
+        </p>
+
+        <p>You can use the ? in order to mark unrevealed tiles.</p>
+    <p>
+        <img src="/static/mark.png" alt="mark">
+        </p>
+    <p>If you find a treasure, the tile will turn light blue.</p>
+    <p>
+        <img src="/static/treasure.png" alt="treasure">
+        </p>
+
+        <p>If you click on a landmine, you fail your mission and it's game over.</p>
+        <p>
+            <img src="/static/landmine.png" alt="landmine">
+            </p>
+<br><br>
+            <p>Now that you know the rules of the game, GOOD LUCK! </p>
+
+
+
+    </div>
+
+{% endblock %}
