@@ -1,0 +1,86 @@
+/* part of the site with content */
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 5%;
+    padding-right: 5%;
+
+}
+
+img {
+    width: 80%;
+    max-width:500px;
+    border: 2px solid white;
+}
+
+body {
+    font-family: 'Comic Sans MS', cursive;
+    background-color:#2B65EC;
+    color: white;
+
+}
+h1 {
+    text-align: center;
+  }
+
+/* id game # */
+#game {
+    width: 740px;
+    height: 500px;
+    border: 10px solid lightgray;
+    background-color: #C2B280;
+
+    /*display left to right wrapper else it would show as column*/
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#game div {
+    width: 48px;
+    height: 48px;
+    border: 1px solid white;
+
+    /* text */
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tile-passed {
+    background: lightgray;
+}
+
+.color1 {
+    color: red;
+}
+.color2 {
+    color: orange;
+}
+.color3 {
+    color: yellow;
+}
+.color4 {
+    color: green;
+}
+.color5 {
+    color: blue;
+}
+.color6 {
+    color: purple;
+}
+.color7 {
+    color: brown;
+}
+.color8 {
+    color: black;
+}
+
+#marker {
+    width:100px;
+    height: 50px;
+    font-size: 30px;
+    background-color: lightgray;
+    border: none;
+}
