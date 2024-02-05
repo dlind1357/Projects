@@ -1,6 +1,5 @@
 # Projects
-## Genome Analysis
-## Statistical Analysis
+
 ## Treasure Hunt Game
 ##### This game was made utilizing Python, Flask, JavaScript, HTML, CSS, Bootstrap, and SQL to make a website that lets someone play a game that I designed called Treasure Hunt. The player is stuck on an island and needs to find the island’s treasure while also avoiding landmines using their landmine detector. The player can reveal tiles by clicking on them. If a tile turns cyan, then that means that a treasure has been found and the number of “Treasures Left” above the game board decreases. If a tile reveals a number, then that means that there is a certain number of landmines surrounding that tile. Clicking the “?” button below the game board will allow the player to mark tiles that they think are landmines. If a player finds all of the treasures, the player wins! But if the player clicks on a landmine, the player loses and the game reveals the locations of all the treasures and landmines.
 ##### Please read the README.md in the TreasureHunt directory for more details.
